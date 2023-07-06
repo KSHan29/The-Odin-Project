@@ -1,0 +1,55 @@
+body {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: skyblue;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 800;
+  color: lightskyblue;
+  background-color: lightslategray;
+  padding: 20px;
+  border-radius: 8px;
+  font-style: italic;
+  align-self: stretch;
+}
+
+.title-gif {
+  height: auto;
+  width: 300px;
+  border: 3px solid #365d93;
+  border-radius: 8px;
+  margin: 20px;
+}
+
+.options {
+  width: 80%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: slategray;
+  margin-bottom: 20px;
+}
+
+.option {
+  border-radius: 8px;
+  border: 3px solid hsl(215, 46%, 39%);
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
