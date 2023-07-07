@@ -1,9 +1,10 @@
-body {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+.body {
+  font-family: cursive;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: skyblue;
+  border-radius: 8px;
 }
 
 .header {
@@ -17,12 +18,13 @@ body {
   text-align: center;
   font-size: 36px;
   font-weight: 800;
-  color: lightskyblue;
+  color: whitesmoke;
   background-color: lightslategray;
   padding: 20px;
-  border-radius: 8px;
   font-style: italic;
   align-self: stretch;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
 
 .title-gif {
@@ -34,22 +36,52 @@ body {
 }
 
 .options {
-  width: 80%;
+  align-self: stretch;
   background-color: white;
-  border-radius: 10px;
   padding: 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  gap: 20px;
   align-items: center;
   background-color: slategray;
-  margin-bottom: 20px;
 }
 
 .option {
   border-radius: 8px;
   border: 3px solid hsl(215, 46%, 39%);
-  width: 80px;
   display: flex;
   justify-content: center;
   background-color: white;
+  padding: 2px;
+}
+
+.results {
+  color: slategray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px;
+  min-height: 40px;
+  font-size: 20px;
+  flex-direction: column;
+  text-align: center;
+}
+
+.score {
+  font-family: "Papyrus";
+  font-size: 36px;
+  font-weight: 900;
+  color: whitesmoke;
+}
+
+.new-game {
+  border-radius: 8px;
+  font-family: cursive;
+  /* background-color: slategray; */
+  border: 2px solid black;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: slategray;
+  margin-top: 10px;
 }
